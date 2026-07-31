@@ -1,0 +1,15 @@
+{
+  "domain": "aprilaire_cloud",
+  "name": "Aprilaire Cloud",
+  "codeowners": ["@rborkow"],
+  "config_flow": true,
+  "documentation": "https://github.com/rborkow/aprilaire-cloud-ha",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/rborkow/aprilaire-cloud-ha/issues",
+  "loggers": ["pyaprilaire", "pycognito", "botocore"],
+  "requirements": [
+    "pyaprilaire[cloud] @ https://github.com/rborkow/pyaprilaire/archive/417e46b6c5552523e44126c3ea1cd0355362692b.tar.gz"
+  ],
+  "version": "0.1.0"
+}

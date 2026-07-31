@@ -1,0 +1,2 @@
+pytest-homeassistant-custom-component
+pyaprilaire[cloud] @ https://github.com/rborkow/pyaprilaire/archive/417e46b6c5552523e44126c3ea1cd0355362692b.tar.gz
