@@ -5,7 +5,7 @@ from __future__ import annotations
 from unittest.mock import AsyncMock, patch
 
 import pytest
-from pyaprilaire.cloud_models import (
+from pyaprilaire_cloud.models import (
     DehumidifierStatus,
     DeviceSettings,
     DeviceStatus,

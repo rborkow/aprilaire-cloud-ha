@@ -7,7 +7,7 @@ import logging
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME, Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
-from pyaprilaire.cloud_client import AprilaireCloudClient
+from pyaprilaire_cloud.client import AprilaireCloudClient
 
 from .coordinator import AprilaireCloudConfigEntry, AprilaireCloudCoordinator
 

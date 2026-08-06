@@ -6,8 +6,8 @@ from homeassistant import config_entries
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME
 from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResultType
-from pyaprilaire.cloud_client import CloudClientAuthError, CloudClientRequestError
-from pyaprilaire.cloud_models import Hierarchy
+from pyaprilaire_cloud.client import CloudClientAuthError, CloudClientRequestError
+from pyaprilaire_cloud.models import Hierarchy
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
 from custom_components.aprilaire_cloud.const import DOMAIN

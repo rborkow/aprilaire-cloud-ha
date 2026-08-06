@@ -16,7 +16,7 @@ from homeassistant.const import (
 )
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from pyaprilaire.cloud_models import Sensor
+from pyaprilaire_cloud.models import Sensor
 
 from .coordinator import AprilaireCloudConfigEntry, AprilaireCloudCoordinator
 from .entity import AprilaireCloudEntity

@@ -18,7 +18,7 @@ from homeassistant.components.humidifier import (
 )
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from pyaprilaire.const import (
+from pyaprilaire_cloud.const import (
     DEHUMIDIFICATION_SETPOINT_MAX,
     DEHUMIDIFICATION_SETPOINT_MIN,
 )

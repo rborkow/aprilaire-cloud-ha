@@ -16,12 +16,12 @@ from homeassistant.helpers.update_coordinator import (
     UpdateFailed,
 )
 from homeassistant.util import dt as dt_util
-from pyaprilaire.cloud_client import (
+from pyaprilaire_cloud.client import (
     AprilaireCloudClient,
     CloudClientAuthError,
     CloudClientRequestError,
 )
-from pyaprilaire.cloud_models import (
+from pyaprilaire_cloud.models import (
     DehumidifierSettings,
     DehumidifierStatus,
     DeviceSettings,

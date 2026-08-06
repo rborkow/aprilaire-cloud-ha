@@ -7,9 +7,9 @@
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/rborkow/aprilaire-cloud-ha/issues",
-  "loggers": ["pyaprilaire", "pycognito", "botocore"],
+  "loggers": ["pyaprilaire_cloud", "pycognito", "botocore"],
   "requirements": [
-    "pyaprilaire[cloud] @ https://github.com/rborkow/pyaprilaire/archive/417e46b6c5552523e44126c3ea1cd0355362692b.tar.gz"
+    "pyaprilaire-cloud @ https://github.com/rborkow/pyaprilaire-cloud/archive/aa21a687c2a846c13ad6a4f0764d65cac3dfc4fc.tar.gz"
   ],
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
