@@ -1,2 +1,2 @@
 pytest-homeassistant-custom-component
-pyaprilaire-cloud @ https://github.com/rborkow/pyaprilaire-cloud/archive/aa21a687c2a846c13ad6a4f0764d65cac3dfc4fc.tar.gz
+pyaprilaire-cloud==0.1.0

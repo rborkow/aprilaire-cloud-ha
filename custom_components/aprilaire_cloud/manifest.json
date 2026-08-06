@@ -9,7 +9,7 @@
   "issue_tracker": "https://github.com/rborkow/aprilaire-cloud-ha/issues",
   "loggers": ["pyaprilaire_cloud", "pycognito", "botocore"],
   "requirements": [
-    "pyaprilaire-cloud @ https://github.com/rborkow/pyaprilaire-cloud/archive/aa21a687c2a846c13ad6a4f0764d65cac3dfc4fc.tar.gz"
+    "pyaprilaire-cloud==0.1.0"
   ],
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
